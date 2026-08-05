@@ -16,8 +16,9 @@ jobs:
       with:
         python-version: '3.12'
         cache: 'pip'
-    - name: Install dependencies
+    - name: Install system & Python dependencies
       run: |
+        sudo apt-get update && sudo apt-get install -y libgomp1
         python -m pip install --upgrade pip setuptools wheel
         pip install --prefer-binary -r requirements.txt pytest flake8
     - name: Lint with flake8
