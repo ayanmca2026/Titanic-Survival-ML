@@ -1,8 +1,16 @@
 # 🚢 Titanic Survival Prediction
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://titanic-survival-ml-79yyt7pu2hncochlhcydjz.streamlit.app/)
 ![Python Version](https://img.shields.io/badge/python-3.12-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![CI Status](https://img.shields.io/badge/build-passing-brightgreen)
+
+## 🌐 Live Application Links
+
+- 🎨 **Live Streamlit Dashboard**: [https://titanic-survival-ml-79yyt7pu2hncochlhcydjz.streamlit.app/](https://titanic-survival-ml-79yyt7pu2hncochlhcydjz.streamlit.app/)
+- ⚡ **FastAPI REST API (Vercel)**: [https://titanic-survival-ml.vercel.app](https://titanic-survival-ml.vercel.app)
+- 📖 **Swagger API Docs**: [https://titanic-survival-api.onrender.com/docs](https://titanic-survival-api.onrender.com/docs)
+
 
 ## Table of Contents
 - [Project Description](#project-description)
