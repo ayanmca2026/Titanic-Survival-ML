@@ -7,7 +7,7 @@ def feature_data():
     return pd.DataFrame({
         "SibSp": [1, 0, 3, 0],
         "Parch": [0, 0, 1, 2],
-        "Name": ["Braund, Mr. Owen Harris", "Cumings, Mrs. John Bradley", "Heikkinen, Miss. Laina", "Master. G"],
+        "Name": ["Braund, Mr. Owen Harris", "Cumings, Mrs. John Bradley", "Heikkinen, Miss. Laina", "Panula, Master. Juha Niilo"],
         "Age": [22, 38, 26, 2]
     })
 

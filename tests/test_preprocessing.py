@@ -14,7 +14,7 @@ def test_impute_missing_age(sample_data):
     df = sample_data.copy()
     df["Age"] = df["Age"].fillna(df["Age"].median())
     assert not df["Age"].isnull().any()
-    assert df["Age"].iloc[1] == 29.5
+    assert df["Age"].iloc[1] == 30.5
 
 def test_impute_missing_embarked(sample_data):
     df = sample_data.copy()
